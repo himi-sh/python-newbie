@@ -43,3 +43,12 @@ x, y = 1, 2
 print("Before swapping => x= %s , y= %s " % (x, y))
 swap(x, y)
 print("Outside swap function-> After swapping => x= %s , y= %s " % (x, y))
+
+# Anonymous / lambda function
+string = lambda s: print(s)
+string("Lambda example")
+
+tables = [lambda x=x: x * 10 for x in range(1, 11)]
+print("total lamdas ", len(tables))
+for table in tables:
+    print(table())
