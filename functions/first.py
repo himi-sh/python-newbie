@@ -22,4 +22,24 @@ func2(a="1", b="2", c=3)
 # document/doc string in function
 def someFun():
     """Example of document string"""
+
 print(someFun.__doc__)
+
+# Function is pass by reference
+def func3(list):
+    list[0] = 10
+
+list = [1, 2, 3, 4]
+func3(list)
+print(list)
+
+def swap(x, y):
+    temp = x
+    x = y
+    y = temp
+    print("Inside swap function-> After swapping => x= %s , y= %s " % (x, y))
+
+x, y = 1, 2
+print("Before swapping => x= %s , y= %s " % (x, y))
+swap(x, y)
+print("Outside swap function-> After swapping => x= %s , y= %s " % (x, y))
