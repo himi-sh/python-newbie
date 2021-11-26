@@ -18,3 +18,8 @@ def func2(**args):
         print("Key %s Value %s " % (k, v))
 
 func2(a="1", b="2", c=3)
+
+# document/doc string in function
+def someFun():
+    """Example of document string"""
+print(someFun.__doc__)
