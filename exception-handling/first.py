@@ -8,6 +8,8 @@ def funct1(a, b):
         return a / b
     except:
         print("Exception occurred")
+    finally:
+        print("Exceution done")
 
 print(funct1(1,2))
 print(funct1(1,0))
