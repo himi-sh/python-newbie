@@ -9,8 +9,8 @@ def funct1(a, b):
     except:
         print("Exception occurred")
     finally:
-        print("Exceution done")
+        print("Exceution done - finally")
 
-print(funct1(1,2))
-print(funct1(1,0))
+print("1st =>",funct1(1,2))
+print("2nd =>", funct1(1,0))
 
