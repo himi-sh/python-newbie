@@ -18,3 +18,9 @@
         Python3 manage.py runserver
         python3 manage.py startapp projectApp
 
+3.
+pip install --upgrade django-crispy-forms
+django-admin startproject todo-site
+python3 manage.py runserver
+python3 manage.py startapp todo
+
