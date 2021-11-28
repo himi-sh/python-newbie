@@ -1,0 +1,20 @@
+1. Web Devlepment Framework, also called battery included framework as every build-in required features are available.
+   Follows MVT Design Pattern
+   Features: https://www.geeksforgeeks.org/django-introduction-and-installation/
+2. Installation:
+    Link: https://appdividend.com/2018/03/28/how-to-install-django-in-mac/
+    Steps:
+    For virtual environment
+        python3 -m pip install -U pip
+        pip install virtualenv
+        virtualenv env_name
+        cd env_name
+        source bin/activate
+
+    For django
+        pip install django
+        django-admin startproject projectName
+        cd projectName
+        Python3 manage.py runserver
+        python3 manage.py startapp projectApp
+
