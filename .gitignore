@@ -2,3 +2,6 @@
 # intellij
 .idea
 .idea/*
+
+# Setting file
+/django/mainproject/newsapp/settings.json
