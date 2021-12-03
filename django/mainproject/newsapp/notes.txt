@@ -1,0 +1,2 @@
+1. For installing newapi module
+python -m pip install newsapi-python
