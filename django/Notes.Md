@@ -5,6 +5,9 @@ Fetches the latest news and renders over our site
 #### For installing newapi module
 python -m pip install newsapi-python
 
+#### Reference
+https://www.geeksforgeeks.org/python-django-news-app/
+
 #### API Key
 
 - In the views.py update your APIKEY
