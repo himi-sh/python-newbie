@@ -1,10 +1,12 @@
 from django.shortcuts import render
 from newsapi import NewsApiClient
+from . import config
 
 # Create your views here.
 
 def index(request):
-    newsapi = NewsApiClient(api_key='YOURAPIKEY')
+    APIKEY = config.get_secret('APIKEY')
+    newsapi = NewsApiClient(api_key=APIKEY)
     top = newsapi.get_top_headlines(sources='techcrunch')
     l = top['articles']
     desc = []
