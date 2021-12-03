@@ -12,6 +12,6 @@ https://www.geeksforgeeks.org/python-django-news-app/
 
 - In the views.py update your APIKEY
 
-#### The API looks like
+#### The Site looks like
 
 ![image](https://user-images.githubusercontent.com/14940233/144545315-07f973c7-f7aa-490a-82f9-e9c9a94931f4.png)
