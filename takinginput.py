@@ -23,3 +23,4 @@ print("value = ", vCasted1, "type = ", type(vCasted1))
 # 2. Using list
 x, y =  [ int(x) for x in input("Enter 2 ints").split() ]
 print("value x = ", x, "type = ", type(x))
+
