@@ -10,7 +10,12 @@ https://www.geeksforgeeks.org/python-django-news-app/
 
 #### API Key
 
-- In the views.py update your APIKEY
+- Create settings.json inside your newsapp sub-project.
+- Add API Key JSON property
+
+`{
+    "APIKEY": yourkey"
+}`
 
 #### The Site looks like
 
